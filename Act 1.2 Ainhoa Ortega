@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--Ainhoa Ortega Martín ASIR T -->
+<ciclos>
+  <ciclo codigo="12242001">
+    <nombre>CFGS Administración de sistemas informáticos en red</nombre>
+    <curso>1º</curso>
+      <modulo codigo="0369">
+        <nombre>Implantación de sistemas operativos</nombre>
+        <creditos>16</creditos>
+        <horasSemana>6</horasSemana>
+        <dificultad>alta</dificultad>
+      </modulo>
+      <modulo codigo="0370">
+        <nombre>Planificación y administración de redes</nombre>
+        <creditos>12</creditos>
+        <horasSemana>5</horasSemana>
+        <dificultad>alta</dificultad>
+      </modulo>
+      <modulo codigo="0371">
+        <nombre>Fundamentos de hardware</nombre>
+        <creditos>7</creditos>
+        <horasSemana>3</horasSemana>
+        <dificultad>alta</dificultad>
+      </modulo>
+      <modulo codigo="0372">
+        <nombre>Gestión de bases de datos</nombre>
+        <creditos>12</creditos>
+        <horasSemana>5</horasSemana>
+        <dificultad>media</dificultad>
+      </modulo>
+      <modulo codigo="0373">
+        <nombre>Lenguajes de marcas y sistemas de gestión de información*</nombre>
+        <creditos>7</creditos>
+        <horasSemana>4</horasSemana>
+        <dificultad>media</dificultad>
+      </modulo>
+      <modulo codigo="0179">
+        <nombre>Inglés profesional (GS)</nombre>
+        <creditos>5</creditos>
+        <horasSemana>2</horasSemana>
+        <dificultad>baja</dificultad>
+      </modulo>
+      <modulo codigo="1665">
+        <nombre>Digitalización aplicada a los sectores productivos (GS)</nombre>
+        <creditos>3</creditos>
+        <horasSemana>2</horasSemana>
+        <dificultad>baja</dificultad>
+      </modulo>
+      <modulo codigo="1709">
+        <nombre>Itinerario personal para la empleabilidad I</nombre>
+        <creditos>5</creditos>
+        <horasSemana>3</horasSemana>
+        <dificultad>baja</dificultad>
+      </modulo>
+  </ciclo>
+  <ciclo codigo="12241701">
+    <nombre>CFGS Patronaje y moda</nombre>
+    <curso>1º</curso>
+      <modulo codigo="0264">
+        <nombre>Moda y tendencias</nombre>
+        <creditos>5</creditos>
+        <horasSemana>3</horasSemana>
+        <dificultad>media</dificultad>
+      </modulo>
+      <modulo codigo="0276">
+        <nombre>Materiales en textil, confección y piel</nombre>
+        <creditos>10</creditos>
+        <horasSemana>3</horasSemana>
+        <dificultad>alta</dificultad>
+      </modulo>
+      <modulo codigo="0277">
+        <nombre>Técnicas en confección</nombre>
+        <creditos>13</creditos>
+        <horasSemana>6</horasSemana>
+        <dificultad>alta</dificultad>
+      </modulo>
+      <modulo codigo="0278">
+        <nombre>Procesos en confección industrial</nombre>
+        <creditos>10</creditos>
+        <horasSemana>3</horasSemana>
+        <dificultad>alta</dificultad>
+      </modulo>
+      <modulo codigo="0285">
+        <nombre>Patronaje industrial en textil y piel</nombre>
+        <creditos>16</creditos>
+        <horasSemana>8</horasSemana>
+        <dificultad>alta</dificultad>
+      </modulo>
+      <modulo codigo="0179">
+        <nombre>Inglés profesional (GS)</nombre>
+        <creditos>5</creditos>
+        <horasSemana>2</horasSemana>
+        <dificultad>baja</dificultad>
+      </modulo>
+      <modulo codigo="1665">
+        <nombre>Digitalización aplicada a los sectores productivos (GS)</nombre>
+        <creditos>3</creditos>
+        <horasSemana>2</horasSemana>
+        <dificultad>baja</dificultad>
+      </modulo>
+      <modulo codigo="1709">
+        <nombre>Itinerario personal para la empleabilidad I</nombre>
+        <creditos>5</creditos>
+        <horasSemana>3</horasSemana>
+        <dificultad>baja</dificultad>
+      </modulo>
+  </ciclo>
+  <ciclo codigo="12240101">
+    <nombre>CFGS Gestión forestal y del medio natural</nombre>
+    <curso>1º</curso>
+      <modulo codigo="0690">
+        <nombre>Botánica agronómica</nombre>
+        <creditos>6</creditos>
+        <horasSemana>3</horasSemana>
+        <dificultad>media</dificultad>
+      </modulo>
+      <modulo codigo="0693">
+        <nombre>Topografía agraria</nombre>
+        <creditos>6</creditos>
+        <horasSemana>4</horasSemana>
+        <dificultad>media</dificultad>
+      </modulo>
+      <modulo codigo="0694">
+        <nombre>Maquinaria e instalaciones agroforestales</nombre>
+        <creditos>13</creditos>
+        <horasSemana>4</horasSemana>
+        <dificultad>alta</dificultad>
+      </modulo>
+      <modulo codigo="0810">
+        <nombre>Gestión de los aprovechamientos del medio forestal</nombre>
+        <creditos>8</creditos>
+        <horasSemana>3</horasSemana>
+        <dificultad>alta</dificultad>
+      </modulo>
+      <modulo codigo="0812">
+        <nombre>Gestión cinegética</nombre>
+        <creditos>6</creditos>
+        <horasSemana>3</horasSemana>
+        <dificultad>media</dificultad>
+      </modulo>
+      <modulo codigo="0814">
+        <nombre>Gestión de montes</nombre>
+        <creditos>11</creditos>
+        <horasSemana>6</horasSemana>
+        <dificultad>alta</dificultad>
+      </modulo>
+      <modulo codigo="0179">
+        <nombre>Inglés profesional (GS)</nombre>
+        <creditos>5</creditos>
+        <horasSemana>2</horasSemana>
+        <dificultad>baja</dificultad>
+      </modulo>
+      <modulo codigo="1665">
+        <nombre>Digitalización aplicada a los sectores productivos (GS)</nombre>
+        <creditos>3</creditos>
+        <horasSemana>2</horasSemana>
+        <dificultad>baja</dificultad>
+      </modulo>
+      <modulo codigo="1709">
+        <nombre>Itinerario personal para la empleabilidad I</nombre>
+        <creditos>5</creditos>
+        <horasSemana>3</horasSemana>
+        <dificultad>baja</dificultad>
+      </modulo>
+  </ciclo>
+</ciclos>
