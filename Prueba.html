@@ -1,0 +1,174 @@
+<!DOCTYPE html> <!--Declara que es un documento en HTML5-->
+<html lang="es-ES"> <!--Atributo lang indica el idioma-->
+    <head>
+        <meta charset="UTF-8"> <!--Codificación de caracteres-->
+        <meta name="viewport" content="width=device-width, initial-scale=100"> <!--DISEÑO RESPONSIVE-para que se ajuste a la pantalla donde está-->
+        <title>Documento</title> <!--El título de la página arriba en la pestaña-->
+        <style> /* Así se hacen los comentarios en css*/ 
+            p {
+                font-size: 20px;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            }
+            table, th, td {
+                border: 1px solid blue;
+                border-collapse: collapse;
+                text-align: center;
+            }
+        </style> <!-- etiqueta style aplica el estilo. la p dentro de style indica a qué se le va a aplicar el estilo. Aquí a todo el párrafo-->
+    </head>
+
+    <body> <!--Cuerpo del documento, lo que está dentro que se ve-->
+        <h1>Título</h1> <!--h es la etiqueta de los títulos, los números van descendiendo según el nivel-->
+        <h2>PÁRRAFOS</h2>
+        <p>Párrafo</p> <!--Etiqueta p para poner párrafos-->
+        <p style="color: red; background-color: aqua;">Párrafo número dos en rojo y fondo</p> <!--la etiqueta tiene el atributo de estilo en línea, por lo que solo esa línea tendrá este estilo-->
+        <p style="font-weight: bold; background-color: green;">Párrafo con fondo verde</p> <!--Cuando hay estilo en head y otro style en línea, prevalece el estilo de línea-->
+        <p style="font-family: Georgia, 'Times New Roman', Times, serif;"></p> <!--Da una opción de fuentes para que el ordenador aplique la que tenga instalada-->
+       
+        <h2>Saltos, span y styles</h2>
+        <p>Etiquetas para saltos de línea son <br> etiquetas br</p>
+            <hr> <!--No necesite etiqueta de cierre, como la etiqueta de imagen-->
+            <p>Otro párrafo entre líneas</p>
+            <hr style="width: 100%;"> <!-- también las líneas pueden tener atributo-->
+     
+            <p>La etiqueta <span style="">span</span> permite aplicar algo solo al trozo que indica</p> <!-- le etiqueta strong pone en negrita lo que está en medio de las etiquetas, también marca que le damos importancia-->
+        <p>Strong y <em>em</em> son etiquetas semánticas, no solo se ven diferente, también dan información</p> <!--le da al texto cursiva y da énfasis-->
+        <p>Se puede <span style="text-decoration: underline;">subrayar</span> o <span style="text-decoration: line-through;">tachar</span> también palabras</p>
+        <p style="text-align: center;">Puedes elegir dónde aparecerá el texto</p> <!--en style se puede elegir si está justificado el texto o dónde va-->
+        <p>Se puede poner sub y súper índices: x<sub>3</sub> y x<sup>3</sup></p>
+       
+        <h2>Colores</h2>
+        <p>Los colores se pueden nombrar de 4 formas:<br>En html por el nombre en inglés<br>También se usa el color en hexadecimal <span style="color: #abcdef;">#abcdef</span><br>O por el <span style="color: rgb(95 255 123);">RGB</span><br>O mediante los valores <span style="color: hsl(23, 30, 39);">HLS</span>, de matiz, saturación y luminosidad</p>
+
+        <h2>ENLACES</h2>
+        <!--es un enlace que se abre en la misma página donde está-->
+        <!--las etiquetas a son de bloque, no de línea--> <!--La etiqueta br es un salto de línea, sin ella las etiquetas a aparecerán una al lado de otra-->
+        <a href="www.google.es" title="Aparece al pasar el cursor">Enlace</a><br> <!--El title es lo que aparece al pasar el ratón por encima del enlace-->
+        <!--El enlace se abre en una nueva pestaña con target blank-->
+        <a href="www.google.es" target="_blank">Enlace a Google en una nueva pestaña</a>
+        <!--Enlace en la misma página-->
+        <a href="#apartado">Apartado 1</a>
+
+
+        <section id="apartado">
+            <h2>Secciones</h2>
+            <p>Aquí aparece el primer apartado</p>
+        </section>
+
+    <h2>IMÁGENES</h2>
+    <!--A las imágnees hay que ponerles la etiqueta alt por si falla la imagen aparezca el texto-->
+    <!--La etiqueta de imagen es vacía--> <!--La etiqueta imagen también es de bloque-->
+    <img src="Playa_atardecer.jpg" alt="Vista de una playa al atardecer" style="max-width: 100%;height: auto;"/> <br> <!--Esta etiqueta de estilo en la imagen es para que sea SESIGN RESPONSIVE-->
+        <!--Se puede añadir un atributo a la imagen para que sea de un tamaño en específico, el tamaño es proporcional-->
+    <img src="Playa_atardecer.jpg" alt="Playa al atardecer" style="width: 25%"/> <br>
+
+    <h2>DIVISORES</h2>
+    <!--La etiqueta div no hace nada, solo es un separador-->
+    <div style="color: aquamarine;"> <!--Se le puede poner estilos a la división, sección-->
+        <hr>
+        <h2>Título del bloque</h2>
+        <p>Contenido del bloque.</p>
+        <button>Pínchame</button>
+        <hr>
+    </div>
+    <div style="padding: 90px; border-style: dashed; border-color: red; border-width: 20px;">
+        <h2>Otra <span style="color: blueviolet;">división</span></h2>
+    </div>
+
+    <h2>TABLAS</h2>
+    <!--Las tablas son con la etiqueta table y hay que crear filas y columnas-->
+    <table>
+        <caption>Título de la tabla</caption>
+
+        <tr> <!--Etiqueta para crear filas-->
+            <th>Columna1</th> <!--Etiqueta que crear fila de encabezado-->
+            <th>Columna2</th>
+            <th>Columna3</th>
+        </tr>
+        <tr> 
+            <td>A</td> <!--Crea los campos de las columnas por filas-->
+            <td>B</td>
+            <td>C</td>
+        </tr>  <!--Para añadir más filas hay que añadir más tr-->
+    </table>
+    <!--Rowspan combina 2 celdas de una fila, y colspan 2 celdas de una columna-->
+    <table>
+        <caption>Otra tabla</caption>
+
+        <tr> <!--Etiqueta para crear filas-->
+            <th>TítCol1</th> <!--Etiqueta que crear fila de encabezado-->
+            <th>TítCol2</th>
+            <th>TítCol3</th>
+        </tr>
+        <tr> 
+            <td>A</td> <!--Crea los campos de las columnas por filas-->
+            <td colspan="2">Abarca 2 columnas</td>
+        </tr>  <!--Para añadir más filas hay que añadir más tr-->
+    </table>
+        <table>
+        <caption>Y otra más</caption>
+
+        <tr> <!--Etiqueta para crear filas-->
+            <th>TítCol1</th> <!--Etiqueta que crear fila de encabezado-->
+            <th>TítCol2</th>
+            <th>TítCol3</th>
+        </tr>
+        <tr> 
+            <td>A</td> <!--Crea los campos de las columnas por filas-->
+            <td>B</td>
+            <td rowspan="2">Ocupa 2 filas</td>
+        </tr>  <!--Para añadir más filas hay que añadir más tr-->
+        <tr>
+            <th>1</th>
+            <th>2</th>
+        </tr>
+    </table>
+
+    <h2>FORMULARIO</h2>
+        <form action="https://webhook.site/cc822392-e36a-4940-b377-ddfe2e5bfe4b" method="post" enctype="multipart/form-data"> <!--Form indica que empieza un formulario. El action es donde se ingresan los datos del formulario. El método post es que coge los datos y los sube-->
+            <!--Enctype define cómo que los datos se envían y el formulario acepta los datos-->
+            <!--Action es la ruta donde se van a guardar los datos, ahora esto será un webhook: una página web ficticia como un servidor receptor-->
+            <!--Method es cómo se envían los datos, ocultos o en la url. Con datos siempre method post para ocultar datos-->
+            <fieldset> <!--Separa secciones de un formulario-->
+                <legend>Datos</legend> <!--Título de la sección del formulario-->
+                <label for="usuario">Usuario</label> <!--Para asociar la label con el input se asocia mediante for e id-->
+                <input type="text" id="usuario" name="usuario"/> <!--Para asociar el input a un label se pone el id igual al for, es lo que la hace única la etiqueta-->
+
+                <label for="password">Contraseña</label> <!--El texto que aparece encima de la cajita-->
+                <input type="password" id="password" name="password" required/> <!--Es una etiqueta vacía. Es donde escribimos los datos del formulario-->
+                <!--Requires es simplemente el atributo required, para que sea obligatorio rellenar el campo-->
+            </fieldset>
+            <fieldset>
+                <legend>Archivos</legend>
+                <label for="checkbox">Checkbox</label> 
+                <input type="checkbox" id="checkbox" name="checkbox[]" value="checkbox"/> <br> <!--Los [] indican que las respuestas son un array-->
+
+                <label for="checkbox2">Checkbox 2</label> 
+                <input type="checkbox" id="checkbox2" name="checkbox[]" value="checkbox2"/> <br> <!--El valor es lo que se guarda cuando hay más de una opción-->
+
+                <label for="select">Selección en redondo 1</label>
+                <input type="radio" id="select" name="select" value="1"/> <!--El atributo name es para unir la base de datos con los datos del formulario. Es lo que aparecerá ordenador en el webhook-->
+                <label for="select2">Selección en redondo 2</label>
+                <input type="radio" id="select2" name="select" value="2"/> <br> <!--Todos tienen que tener la etiqueta name en un formulario--> 
+                <!--En un radio, poner el mismo id y name hace que solo que pueda seleccionar uno-->
+
+                <label for="elegir">Elección</label> 
+                <select id="elegir" name="elegir"> <!--El input es diferente, se hace con select-->
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select> <br>
+
+                <label for="date">Fecha y hora</label> <br>
+                <input type="date" id="date" name="date"/> <br>
+
+                <label for="file">Archivo</label>
+                <input type="file" id="file" name="file"/>
+            </fieldset>
+            
+            <br><button type="submit" id="enviar" name="boton" value="enviar" title="Enviar datos">Enviar</button> <!--Para enviar datos--> <!--Title es lo que aparece cuando se pasa el ratón por encima-->
+            <button type="reset" id="limpiar" name="boton" value="limpiar" title="Limpiar datos">Limpiar</button> <!--Para resetear los datos-->
+        </form>
+
+    </body>
+</html>
